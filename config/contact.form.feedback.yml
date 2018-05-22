@@ -1,0 +1,14 @@
+uuid: e87d9615-4018-47d4-a7fa-c8d1e1a04e06
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - john@sagetree.net
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''
