@@ -1,0 +1,15 @@
+name: pakmail-franchising
+recipe: pantheon
+config:
+  framework: drupal8
+  site: pakmail-franchising
+  id: 8a4447b4-69fe-419a-b0ba-20c6317d8b0c
+tooling:
+  drupal:
+    cmd:
+      - "/app/vendor/bin/drupal"
+      - "--root=/app/web"
+  drush:
+    cmd:
+      - "/app/vendor/bin/drush"
+      - "--root=/app/web"
