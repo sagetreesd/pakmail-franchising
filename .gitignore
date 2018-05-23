@@ -103,3 +103,9 @@ Thumbs.db
 
 # Things in the core directory that Drupal 8 commits in the repository.
 !web/core/**/*.gz
+
+# IDE
+.vscode
+
+# Environment Indicator - Ignore environment-specific color configurations.
+environment_indicator.indicator.yml
