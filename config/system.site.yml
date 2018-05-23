@@ -1,11 +1,11 @@
 uuid: 0d237d73-984b-4c8d-b238-d92ce5c74e77
-name: pakmail-franchising
+name: 'Pakmail Franchising'
 mail: john@sagetree.net
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/1
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

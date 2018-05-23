@@ -1,0 +1,11 @@
+uuid: dd1e56d5-610a-4435-b288-504eb42c55e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+id: copyright
+title: Copyright
+content:
+  value: "<p>Annex Brands, Inc © 2001-[current-date:custom:Y]</p>\r\n\r\n<p>Each location is independently owned &amp; operated.</p>\r\n"
+  format: basic_html

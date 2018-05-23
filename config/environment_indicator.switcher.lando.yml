@@ -1,0 +1,10 @@
+uuid: de26c71f-d627-43ee-8b95-ab01e957e061
+langcode: en
+status: true
+dependencies: {  }
+machine: lando
+description: null
+name: Lando
+url: 'https://gonavisfranchising.lndo.site/'
+fg_color: '#ffffff'
+bg_color: '#0091a3'
