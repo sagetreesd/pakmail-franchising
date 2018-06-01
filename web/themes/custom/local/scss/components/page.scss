@@ -1,0 +1,18 @@
+/**
+ * @file
+ * Styles for Bootstrap Barrio page.
+ */
+
+#main {
+    background-color: $white;
+    margin-top: 0;
+    padding-top: $spacer;
+}
+
+.featured-bottom .container {
+    background-color: $white;
+}
+
+#content > .section {
+    padding: 15px;
+}

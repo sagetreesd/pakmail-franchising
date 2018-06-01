@@ -1,13 +1,15 @@
 name: Local
 type: theme
-description: 'Local, a Bootstrap Barrio SubTheme.'
+description: 'Local, a Custom Bootstrap Barrio sass subtheme by Sage Tree Solutions.'
 # version: VERSION
 # core: 8.x
 base theme: bootstrap_barrio
 
 libraries:
   - local/global-styling
-
+libraries-override:
+  bootstrap_barrio/global-styling: false
+  bootstrap_barrio/file: false
 regions:
   top_header: 'Top Header'
   top_header_form: "Top Header Form"
@@ -32,20 +34,7 @@ regions:
   footer_fourth: 'Footer fourth'
   footer_fifth: 'Footer fifth'
 
-# Information added by Drupal.org packaging script on 2015-11-29
-# version: '8.x-4.0-beta1'
-# core: '8.x'
-# project: 'bootstrap_barrio'
-# datestamp: 1448759945
-
-# Information added by Drupal.org packaging script on 2018-04-30
-# version: '8.x-4.9'
-# core: '8.x'
-# project: 'bootstrap_barrio'
-# datestamp: 1525127885
-
-# Information added by Drupal.org packaging script on 2018-05-21
-version: '8.x-4.10'
+version: '8.x-1.0'
 core: '8.x'
 project: 'local'
-datestamp: 1526911691
+datestamp: 1525128484
