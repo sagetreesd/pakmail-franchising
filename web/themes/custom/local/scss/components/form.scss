@@ -3,14 +3,54 @@
  * Visual styles for Bootstrap Barrio's form components.
  */
 
+input,
+textarea,
+label,
+select {
+    font-family: $font-family-local-input;
+}
+
+.form-text {
+    margin-top: 0;
+}
+
 .form-required::after {
-    content: '';
+    content: ' ';
     vertical-align: super;
     display: inline-block;
-    background-image: url(../../images/required.svg);
+    background-image: url(../images/required.svg);
     background-repeat: no-repeat;
-    background-size: ($input-height / 2) ($input-height / 2);
-    width: ($input-height / 2);
-    height: ($input-height / 2);
+    background-size: cover;
+    width: 0.5rem;
+    height: 0.5rem;
     margin: 0 0.3em;
+}
+
+#edit-i-agree-the-information-contained-is-true-accurate-and-complete-yes {
+    margin-left: 0;
+}
+label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-yes"] {
+    margin-left: 15px;
+}
+
+#content .block-webform-block .webform-submission-form {
+    .btn-primary {
+        padding: 10px 30px;
+    }
+
+    @media screen and (min-width: 769px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .form-group {
+            width: 48%;
+        }
+
+        .form-item-comment,
+        .form-item-how-did-you-hear-about-us,
+        #edit-privacy {
+            width: 100%;
+        }
+    }
 }

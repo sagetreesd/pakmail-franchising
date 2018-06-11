@@ -16,3 +16,27 @@ $value in $theme-colors {
         @include button-outline-variant($value);
     }
 }
+
+@mixin responsive-headings($tag-name, $font-size, $multiplier) {
+  $selector: "#{$tag-name}, .#{$tag-name}";
+
+  #{$selector} {
+    font-size: $font-size * (1 - (0.4 * $multiplier));
+  }
+
+  @include media-breakpoint-up(xs) {
+    #{$selector} {
+      font-size: $font-size * (1 - (0.2 * $multiplier));
+    }
+  }
+  @include media-breakpoint-up(md) {
+    #{$selector} {
+      font-size: $font-size * (1 - (0.1 * $multiplier));
+    }
+  }
+  @include media-breakpoint-up(lg) {
+    #{$selector} {
+      font-size: $font-size;
+    }
+  }
+}

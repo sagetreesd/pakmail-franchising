@@ -1,0 +1,22 @@
+uuid: 6a9a1c16-f901-4326-b8cc-5a9312912102
+langcode: en
+status: true
+dependencies:
+  config:
+    - simple_block.simple_block.phone_block
+  module:
+    - simple_block
+  theme:
+    - local
+id: phone
+theme: local
+region: top_header
+weight: 0
+provider: null
+plugin: 'simple_block:phone_block'
+settings:
+  id: 'simple_block:phone_block'
+  label: Phone
+  provider: simple_block
+  label_display: visible
+visibility: {  }

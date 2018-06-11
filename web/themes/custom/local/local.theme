@@ -28,3 +28,27 @@ function local_form_system_theme_settings_alter(&$form, FormStateInterface $form
       'bg-transparent' => t('Transparent'),
   );
 }
+
+function local_preprocess_node(&$vars) {
+    switch ($vars['view_mode']) {
+        case 'hero':
+        case 'next':
+        case 'previous':
+            $vars['hide_header'] = TRUE;
+            break;
+
+        case 'next_topic_text':
+            $vars['label'] = t('Next Topic');
+            $vars['label_classes'] = 'btn-primary';
+            break;
+            
+            case 'previous_topic_text':
+            $vars['label'] = t('Previous Topic');
+            $vars['label_classes'] = 'btn-primary';
+            break;
+
+        default:
+            break;
+
+    }
+}

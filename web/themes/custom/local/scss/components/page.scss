@@ -7,12 +7,304 @@
     background-color: $white;
     margin-top: 0;
     padding-top: $spacer;
-}
 
-.featured-bottom .container {
-    background-color: $white;
+    h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+    }
 }
 
 #content > .section {
     padding: 15px;
+}
+
+.block-center-title h2 {
+    text-align: center;
+    width: 100%;
+}
+
+.apply-block {
+    background-color: $accent-shade;
+    color: $white;
+
+    h2,
+    a {
+        color: $white;
+        display: inline-block;
+    }
+}
+
+.ribbon {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+
+    .btn-secondary {
+        margin: 0 0 30px;
+    }
+
+    .content {
+        margin: 0 auto;
+        max-width: 768px;
+    }
+}
+
+.region-featured-bottom-first {
+    justify-content: space-between;
+
+    .block {
+        padding: 0 30px 30px;
+        margin: 0 auto;
+        
+        h2 {
+            text-align: center;
+        }
+        
+        @media screen and (min-width: 768px) {
+            margin: 0;
+
+            h2 {
+                text-align: left;
+            }
+            
+            &:last-child h2 {
+                text-align: right;
+            }
+        }
+    }
+}
+
+.field--type-entity-reference {
+    margin: 0;
+
+    @media screen and (max-width: 767px) {
+        text-align: center;
+    }
+
+    .field__item {
+        margin: 0;
+        
+        a {
+            background-color: $accent-shade;
+            color: $white;
+            padding: 0.75rem;
+
+            &:hover {
+                background-color: $accent-dark;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.field--name-field-next,
+.field--name-field-previous {
+    a {
+        font-size: 1.5rem;
+        font-weight: normal;
+
+        &:before,
+        &:after {
+            display: inline-block;
+            font-family: FontAwesome;
+        }
+    }
+}
+
+.field--name-field-previous a:before {
+    content: '\f060';
+    padding-right: 15px;
+}
+
+.field--name-field-next {
+    @media screen and (min-width: 768px) {
+        text-align: right;
+    }
+
+    a:after {
+        content: '\f061';
+        padding-left: 15px;
+    }
+}
+
+#block-franchiseapplication {
+    padding: 30px 0;
+}
+
+.block-simple-blockready-to-start-franchise {
+    margin: 0 auto;
+}
+
+.block-social-media-links {
+    margin: 0 auto;
+    width: 15rem;
+
+    .social-media-links--platforms {
+        text-align: center;
+    }
+
+    .fa-5x {
+        font-size: 2rem;
+        background-color: $accent-secondary;
+        padding: 0.5rem;
+        width: 4rem;
+        color: $white;
+    }
+}
+
+.block-simple-blockready-to-learn-more {
+    background-color: $accent-light;
+}
+
+.block-simple-blockwhy-our-franchise-is-right {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.block-simple-blockgrowth-potential,
+.block-simple-blocklifestyle-flexibility,
+.block-simple-blockcontinual-support {
+    padding-bottom: $spacer;
+
+    h2:before {
+        color: $light-gray;
+        display: block;
+        font-family: 'fontawesome';
+        font-size: 3rem;
+        font-weight: normal;
+    }
+}
+
+.block-simple-blockgrowth-potential h2:before {
+    content: '\f201';
+}
+.block-simple-blocklifestyle-flexibility h2:before {
+    content: '\f234';
+}
+.block-simple-blockcontinual-support h2:before {
+    content: '\f2b5';
+}
+
+.featured-bottom {
+    .container {
+        background-color: $white;
+        padding-top: 50px;
+    }
+
+    .region {
+        background-color: $white;
+        
+        h2 {
+            margin-bottom: 2rem;
+        }
+    }
+
+    .region-featured-bottom-first h2 {
+        margin-bottom: 0;
+    }
+
+    .region-featured-bottom-third {
+        border-top: 1px solid $dark-gray;
+
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        > .block {
+            padding: 30px 0;
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    .block-simple-blockneed-more-information .content {
+        display: flex;
+        flex-wrap: wrap;
+
+        div {
+            width: 100%;
+            @media screen and (min-width: 576px) {
+                width: 50%;
+            }
+
+            a:before {
+                color: $gray;
+                display: inline-block;
+                font-family: 'fontawesome';
+                font-size: 4rem;
+                width: 100%;
+
+                &:hover {
+                    color: $accent-shade;
+                }
+            }
+
+            a {
+                color: $dark-gray;
+            }
+            a:hover {
+                color: $accent-shade;
+            }
+            a.phone-number:before {
+                content: '\f095';
+            }
+            a.email:before {
+                content: '\f0e0';
+            }
+        }
+    }
+}
+
+#main .hero {
+    margin-top: -31px;
+    margin-bottom: 30px;
+
+    .node__content {
+        margin: 0;
+        position: relative;
+    }
+    .field--type-image {
+        margin: 0;
+        img {
+            height: auto;
+            width: 100%;
+        }
+    }
+    .field--name-field-hero-text {
+        background-color: rgba(33, 33, 33, 0.8);
+        color: $white;
+        left: $spacer;
+        padding: $spacer;
+        position: absolute;
+
+        h2 {
+            color: $white;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .btn-primary {
+            color: $button-text-color;
+        }
+
+        @media (max-width: 33.8em) {
+            height: calc(100% - 15px);
+            top: 0;
+            margin-left: -16px;
+            width: 100%;
+        }
+
+        @media (min-width: 33.9em) {
+            bottom: 30px;
+        }
+
+        @media (min-width: 47.9em) {
+            padding: 30px;
+
+            h2 {
+                font-size: 2rem;
+            }
+        }
+    }
 }

@@ -4,18 +4,64 @@
  */
 
 .site-footer {
-    background-color: $gray !important;
     padding: $spacer 0;
+
+    .region {
+        padding: 0 $spacer;
+    }
+
     .layout-container {
         padding: 0 $spacer;
+    }
+
+    .navbar-nav {
+        display: block;
+        text-align: center;
+
+        .nav-item {
+            padding: 0 0 10px 5px;
+            
+            &:first-child {
+                padding-left: 0;
+                a {
+                    padding-left: 0;
+                }
+            }
+            a {
+                display: inline-block;
+            }
+            @media screen and (min-width: 576px) {
+                display: inline-block;
+
+                a {
+                    padding: 0 10px;
+                }
+            }
+        }
     }
 }
 
 
 /* Footer Top Styling. */
+.site-footer__top > .region > .block {
+    margin: 0 auto;
+
+    &.navigation {
+        padding-bottom: 25px;
+        width: 100%;
+    }
+
+    .content {
+        text-align: center;
+    }
+}
 
 .site-footer__top .content {
     margin-top: 0;
+
+    p {
+        margin-bottom: 0.5rem;
+    }
 }
 
 

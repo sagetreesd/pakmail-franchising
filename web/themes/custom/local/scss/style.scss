@@ -13,11 +13,48 @@ body {
     background: $dark-gray;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: $font-family-local-h;
+}
+
+@include responsive-headings('h1', $font-size-h1, 1);
+@include responsive-headings('h2', $font-size-h2, 1);
+@include responsive-headings('h3', $font-size-h3, 1);
+@include responsive-headings('h4', $font-size-h4, 0.7);
+@include responsive-headings('h5', $font-size-h5, 0.6);
+@include responsive-headings('h6', $font-size-h6, 0.5);
+
+a:hover {
+    text-decoration: none;
+    transition: 0.25s ease-out;
+}
+
+#main img {
+    max-width: 100%;
+}
+
 /* COLORS 
 --------------------------------------------------*/
 
 a {
-    color: black;
+    color: $body-link;
+    transition: 0.1s ease-out;
+
+    &.webform-element-help {
+        color: $white;
+        width: 1.15rem;
+    }
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+h2 {
+    color: $accent-shade;
 }
  
 .bg-inverse {
@@ -29,7 +66,14 @@ a {
 }
 
 .site-footer {
-    background: $accent-shade !important;
+    background: $accent-secondary !important;
+    &,
+    a {
+        color: $white;
+    }
+}
+.light-text {
+    color: $light-gray;
 }
 
 .menu--main li a {
@@ -251,4 +295,49 @@ a {
 
 .triple .card-footer p {
     margin: 0;
+}
+
+.align-left {
+    padding: 0 $spacer $spacer 0;
+}
+
+.align-right {
+    padding: 0 0 $spacer $spacer;
+}
+
+.btn-primary {
+    background-color: $button-background-color;
+    border-color: $button-border-color;
+    color: $button-text-color;
+    display: inline-block;
+    font-weight: bold;
+    padding: 15px 30px;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: $button-background-color-hover;
+        border-color: $button-border-color; 
+    }
+}
+
+.btn-secondary {
+    background-color: $button2-background-color;
+    border-color: $button2-border-color;
+    color: $button2-text-color;
+    display: inline-block;
+    font-weight: bold;
+    padding: 15px 30px;
+    text-transform: uppercase;
+
+    &:hover {
+        color: $button2-text-color;
+        background-color: $button2-background-color-hover;
+        border-color: $button2-border-color; 
+    }
+}
+
+.full-width-content {
+    clear: both;
+    margin-left: -30px;
+    margin-right: -30px;
 }

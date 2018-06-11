@@ -8,17 +8,17 @@ uid: 1
 template: false
 id: franchise_application
 title: 'Franchise Application'
-description: 'Application to franchise Pakmail.'
+description: 'Full application for franchising.'
 category: ''
-elements: null
+elements: "first_name:\n  '#type': textfield\n  '#title': 'First Name'\n  '#required': true\nlast_name:\n  '#type': textfield\n  '#title': 'Last Name'\n  '#required': true\nemail:\n  '#type': email\n  '#title': Email\n  '#required': true\naddress:\n  '#type': webform_address\n  '#title': Address\n  '#required': true\n  '#address__required': true\nsocial_security_number:\n  '#type': textfield\n  '#title': 'Social Security Number'\n  '#help': 'Example: <em>999-99-9999</em>'\n  '#input_mask': 999-99-9999\n  '#required': true\n  '#pattern': '^\\d{3}-\\d{2}-\\d{4}$'\ndaytime_phone:\n  '#type': tel\n  '#title': 'Daytime Phone'\n  '#required': true\nevening_phone:\n  '#type': tel\n  '#title': 'Evening Phone'\n  '#required': true\ncell_phone:\n  '#type': tel\n  '#title': 'Cell Phone'\n  '#required': true\nbest_time_to_call:\n  '#type': select\n  '#title': 'Best Time to Call'\n  '#options':\n    day: Day\n    evening: Evening\n  '#required': true\ncurrent_occupation:\n  '#type': textfield\n  '#title': 'Current Occupation'\n  '#required': true\nhow_long_employed_at_present_occupation:\n  '#type': textfield\n  '#title': 'How long employed at present occupation?'\n  '#required': true\nco_applicant_s_name:\n  '#type': textfield\n  '#title': 'Co-Applicant''s Name'\n  '#required': true\nco_applicant_s_employer:\n  '#type': textfield\n  '#title': 'Co-Applicant''s Employer'\n  '#required': true\nchildren:\n  '#type': textfield\n  '#title': Children\n  '#required': true\n  '#pattern': '^(0|[1-9][0-9]*)$'\nhave_you_been_convicted_of_a_crime_in_the_past_5_years:\n  '#type': select\n  '#title': 'Have you been convicted of a crime in the past 5 years? (Exclude traffic infractions)'\n  '#options': yes_no\n  '#required': true\ncrime_details:\n  '#type': textarea\n  '#title': 'If so, please provide details'\n  '#rows': '3'\nwill_you_continue_to_work_at_your_current_place_of_employment_af:\n  '#type': select\n  '#title': 'Will you continue to work at your current place of employment after the franchise is awarded?'\n  '#options': yes_no\n  '#required': true\nwill_the_co_applicant_continue_to_work_at_their_current_place_of:\n  '#type': select\n  '#title': 'Will the co-applicant continue to work at their current place of employment after the franchise is awarded?'\n  '#options': yes_no\n  '#required': true\nwho_will_operate_the_store_:\n  '#type': select\n  '#title': 'Who will operate the store?'\n  '#options':\n    self: Self\n    co-applicant: Co-Applicant\n    other: Other\n  '#required': true\nother_will_operate_store_details:\n  '#type': textarea\n  '#title': 'If other, please specify'\nin_what_state_county_and_city_would_you_like_to_own_your_own_nav:\n  '#type': textarea\n  '#title': 'In what state, county and city would you like to own your own Navis Pack & Ship?'\n  '#required': true\nif_accepted_how_soon_would_you_anticipate_opening_your_own_navis:\n  '#type': textarea\n  '#title': 'If accepted, how soon would you anticipate opening your own Navis Pack & Ship?'\n  '#required': true\nare_you_a_u_s_citizen_:\n  '#type': select\n  '#title': 'Are you a U.S. citizen?'\n  '#help': 'Please note that answering no does not automatically disqualify you.'\n  '#options': yes_no\n  '#required': true\nare_you_a_veteran_of_the_u_s_armed_forces_:\n  '#type': select\n  '#title': 'Are you a veteran of the U.S Armed Forces?'\n  '#help': 'Please note that answering no does not automatically disqualify you.'\n  '#options': yes_no\n  '#required': true\nfinancial_information:\n  '#type': fieldset\n  '#title': 'Financial Information'\n  assets:\n    '#type': fieldset\n    '#title': Assets\n    cash:\n      '#type': textfield\n      '#title': Cash\n      '#required': true\n    stocks_bonds:\n      '#type': textfield\n      '#title': Stocks/Bonds\n      '#required': true\n    real_estate_market_value:\n      '#type': textfield\n      '#title': 'Real Estate Market Value'\n      '#required': true\n    automobiles:\n      '#type': textfield\n      '#title': Automobiles\n      '#required': true\n    other:\n      '#type': textfield\n      '#title': Other\n      '#required': true\n  liabilities:\n    '#type': fieldset\n    '#title': Liabilities\n    mortgage:\n      '#type': textfield\n      '#title': Mortgage\n      '#required': true\n    auto_loan:\n      '#type': textfield\n      '#title': 'Auto Loan'\n      '#required': true\n    notes_due_others:\n      '#type': textfield\n      '#title': 'Notes Due Others'\n      '#required': true\n    credit_card_balance:\n      '#type': textfield\n      '#title': 'Credit Card Balance'\n      '#required': true\n    other_liabilities:\n      '#type': textfield\n      '#title': Other\n      '#required': true\n  net_worth:\n    '#type': fieldset\n    '#title': 'Net Worth'\n    net_worth_total_assets_total_liabilities_:\n      '#type': textfield\n      '#title': 'Net Worth (Total Assets - Total Liabilities)'\n      '#required': true\n  other_funding:\n    '#type': fieldset\n    '#title': 'Other Funding'\n    do_you_anticipate_obtaining_a_loan_from_another_source_to_assist:\n      '#type': select\n      '#title': 'Do you anticipate obtaining a loan from another source to assist you in funding this franchise opportunity?'\n      '#help': 'Please note that answering yes to the following questions does not automatically disqualify you.'\n      '#options': yes_no\n      '#required': true\n    loan_source:\n      '#type': textfield\n      '#title': 'Loan Source'\n    loan_amount:\n      '#type': textfield\n      '#title': Amount\n  where_will_the_funds_come_from_to_meet_the_initial_cash_injectio:\n    '#type': textfield\n    '#title': 'Where will the funds come from to meet the initial cash injection requirement of start-up?'\n    '#required': true\n  sources_of_income:\n    '#type': fieldset\n    '#title': 'Sources of Income'\n    have_you_ever_filed_for_bankruptcy_:\n      '#type': select\n      '#title': 'Have you ever filed for bankruptcy? '\n      '#options': yes_no\n      '#required': true\n    interest:\n      '#type': textfield\n      '#title': Interest\n      '#required': true\n    alimony:\n      '#type': textfield\n      '#title': Alimony\n      '#required': true\n    pension:\n      '#type': textfield\n      '#title': Pension\n      '#required': true\n    real_estate_income:\n      '#type': textfield\n      '#title': 'Real Estate'\n      '#required': true\n    inheritance:\n      '#type': textfield\n      '#title': Inheritance\n      '#required': true\n    other_income:\n      '#type': textfield\n      '#title': Other\n      '#required': true\n    if_other_income_please_explain_:\n      '#type': textarea\n      '#title': 'If \"Other\", please explain:'\nmarkup:\n  '#type': webform_markup\n  '#markup': '<em>This is not a franchise offering. A franchise offering can be made by us only in a state if we are first registered, excluded, exempted, or otherwise qualified to offer franchises in that state, and only if we provide you with an appropriate franchise disclosure document. Individualized responses or communications to you that involve either effecting or attempting to effect the sale of a franchise will be made only if we are first in compliance with state registration requirements, or are covered by an applicable state exclusion or exemption. Notice of Available Disclosure Formats We will furnish you with our franchise disclosure document in paper form, if you qualify as a franchisee prospect. The franchise disclosure document will be presented to you personally in our office, by mail or by courier to you at our cost, if you qualify as a franchisee prospect. A copy of the franchise disclosure document will be made available to you electronically in PDF format, by written request to Mary Ann Canup at&nbsp;<a href=\"mailto:mcanup@annexbrands.com\">mcanup@annexbrands.com</a>&nbsp;only if you qualify as a franchisee prospect. You will need to have Adobe Reader software installed on your computer to view the document and a printer to create a paper copy of the document.&nbsp;</em>'\ni_agree_the_information_contained_is_true_accurate_and_complete_:\n  '#type': radios\n  '#title': 'I agree the information contained is true, accurate, and complete to the best of my knowledge.'\n  '#options':\n    'yes': 'Yes'\n  '#required': true\n"
 css: ''
 javascript: ''
 settings:
-  ajax: true
+  ajax: false
   ajax_scroll_top: form
   page: true
   page_submit_path: franchise-application
-  page_confirm_path: ''
+  page_confirm_path: franchise-application/message-sent
   form_submit_once: false
   form_exception_message: ''
   form_open_message: ''
@@ -72,12 +72,12 @@ settings:
   draft_auto_save: false
   draft_saved_message: ''
   draft_loaded_message: ''
-  confirmation_type: inline
-  confirmation_title: ''
-  confirmation_message: 'Thank you for your submission.'
+  confirmation_type: page
+  confirmation_title: 'Thank you for your interest in becoming an owner!'
+  confirmation_message: "<p>Thank you for submitting your information. &nbsp;Your message has been routed to the appropriate department for review.</p>\r\n\r\n<p>If you need more immediate assistance, please call us at <a class=\"phone-number\" href=\"tel:1-866-964-3142\">(866) 964-3142</a>. &nbsp;Thank you for your interest in a Pak Mail&nbsp;franchise.</p>\r\n\r\n<p>GoNavis<br />\r\nA member of the Annex Brands, Inc. franchise family.<br />\r\n7580 Metropolitan Dr Ste 200<br />\r\nSan Diego, CA 92108-4419</p>"
   confirmation_url: ''
   confirmation_attributes: {  }
-  confirmation_back: true
+  confirmation_back: false
   confirmation_back_label: ''
   confirmation_back_attributes: {  }
   confirmation_exclude_query: false
@@ -94,7 +94,7 @@ settings:
   entity_limit_user_interval: null
   purge: none
   purge_days: null
-  results_disabled: false
+  results_disabled: true
   results_disabled_ignore: false
   token_update: false
 access:
@@ -140,4 +140,68 @@ access:
     roles: {  }
     users: {  }
     permissions: {  }
-handlers: {  }
+handlers:
+  jmarquez:
+    id: email
+    label: JMarquez
+    handler_id: jmarquez
+    status: true
+    conditions: {  }
+    weight: 0
+    settings:
+      states:
+        - completed
+      to_mail: jmarquez@annexbrands.com
+      to_options: {  }
+      cc_mail: ''
+      cc_options: {  }
+      bcc_mail: ''
+      bcc_options: {  }
+      from_mail: default
+      from_options: {  }
+      from_name: default
+      subject: default
+      body: default
+      excluded_elements: {  }
+      ignore_access: false
+      exclude_empty: true
+      html: true
+      attachments: false
+      twig: false
+      debug: false
+      reply_to: ''
+      return_path: ''
+      sender_mail: ''
+      sender_name: ''
+  rheine:
+    id: email
+    label: RHeine
+    handler_id: rheine
+    status: true
+    conditions: {  }
+    weight: 0
+    settings:
+      states:
+        - completed
+      to_mail: rheine@annexbrands.com
+      to_options: {  }
+      cc_mail: ''
+      cc_options: {  }
+      bcc_mail: ''
+      bcc_options: {  }
+      from_mail: default
+      from_options: {  }
+      from_name: default
+      subject: default
+      body: default
+      excluded_elements: {  }
+      ignore_access: false
+      exclude_empty: true
+      html: true
+      attachments: false
+      twig: false
+      debug: false
+      reply_to: ''
+      return_path: ''
+      sender_mail: ''
+      sender_name: ''

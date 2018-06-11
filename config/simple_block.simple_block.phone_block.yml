@@ -1,0 +1,11 @@
+uuid: e80590fd-6cad-4a57-8d2f-8ad36dff207a
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+id: phone_block
+title: Phone
+content:
+  value: '<p><a class="phone-number" href="tel:1-866-964-3142">(866) 964-3142</a></p>'
+  format: full_html
