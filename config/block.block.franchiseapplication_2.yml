@@ -1,0 +1,32 @@
+uuid: c99ca603-a625-45c1-a9d8-d25cd75717c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - simple_block.simple_block.franchise_top_content
+  module:
+    - block_class
+    - simple_block
+    - system
+  theme:
+    - local
+third_party_settings:
+  block_class:
+    classes: ''
+id: franchiseapplication_2
+theme: local
+region: content
+weight: 0
+provider: null
+plugin: 'simple_block:franchise_top_content'
+settings:
+  id: 'simple_block:franchise_top_content'
+  label: 'Franchise Application'
+  provider: simple_block
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /franchise-application
+    negate: false
+    context_mapping: {  }

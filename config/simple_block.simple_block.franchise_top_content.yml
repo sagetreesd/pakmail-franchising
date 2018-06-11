@@ -7,5 +7,5 @@ dependencies:
 id: franchise_top_content
 title: 'Franchise Application'
 content:
-  value: "<p>We're very excited you're ready to talk more about owning your own GoNavis franchise. &nbsp;We look forward to speaking with you soon!</p>\r\n\r\n<p><strong>The information you provide below will be transmitted to us via a secure connection (SSL), ensuring the privacy of your data.</strong></p>\r\n\r\n<p>Thank you for completing this application. Items with an asterisk are required fields.</p>\r\n"
+  value: "<p>We're very excited you're ready to talk more about owning your own Pakmail franchise. &nbsp;We look forward to speaking with you soon!</p>\r\n\r\n<p><strong>The information you provide below will be transmitted to us via a secure connection (SSL), ensuring the privacy of your data.</strong></p>\r\n\r\n<p>Thank you for completing this application. Items with an asterisk are required fields.</p>\r\n"
   format: basic_html
