@@ -18,5 +18,5 @@ settings:
   id: 'simple_block:phone_block'
   label: Phone
   provider: simple_block
-  label_display: visible
+  label_display: '0'
 visibility: {  }

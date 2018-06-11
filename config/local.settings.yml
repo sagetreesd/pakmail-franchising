@@ -27,7 +27,7 @@ logo:
   path: 'public://pakmail-logo.png'
 favicon:
   use_default: true
-bootstrap_barrio_library: cdn
+bootstrap_barrio_library: production
 bootstrap_barrio_sidebar_collapse: 0
 bootstrap_barrio_navbar_top_navbar: 0
 bootstrap_barrio_navbar_top_affix: 0
