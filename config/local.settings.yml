@@ -11,7 +11,7 @@ bootstrap_barrio_navbar_toggle: navbar-toggleable-lg
 bootstrap_barrio_navbar_container: 0
 bootstrap_barrio_navbar_top_position: ''
 bootstrap_barrio_navbar_top_color: navbar-dark
-bootstrap_barrio_navbar_top_background: bg-dark
+bootstrap_barrio_navbar_top_background: bg-white
 bootstrap_barrio_navbar_position: ''
 bootstrap_barrio_navbar_color: navbar-dark
 bootstrap_barrio_navbar_background: bg-primary
@@ -37,4 +37,4 @@ bootstrap_barrio_sidebar_second_affix: 0
 bootstrap_barrio_scroll_spy: ''
 bootstrap_barrio_google_fonts: ''
 bootstrap_barrio_icons: ''
-bootstrap_barrio_system_messages: ''
+bootstrap_barrio_system_messages: messages_light

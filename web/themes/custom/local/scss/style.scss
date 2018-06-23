@@ -10,7 +10,7 @@ Description: Bootstrap 4 with Sass
 -------------------------------------------------*/
 
 body {
-    background: $dark-gray;
+    background: $white;
 }
 
 h1,
@@ -27,6 +27,10 @@ h5 {
 @include responsive-headings('h4', $font-size-h4, 0.7);
 @include responsive-headings('h5', $font-size-h5, 0.6);
 @include responsive-headings('h6', $font-size-h6, 0.5);
+
+h1 {
+    padding: 20px;
+}
 
 a:hover {
     text-decoration: none;
@@ -53,8 +57,13 @@ a {
     }
 }
 
+h1 {
+    background-color: $primary-shade;
+    color: $white;
+}
+
 h2 {
-    color: $accent-shade;
+    color: $primary-shade;
 }
  
 .bg-inverse {

@@ -26,7 +26,7 @@ gulp.task('js', function() {
 gulp.task('serve', ['sass'], function() {
 
     browserSync.init({
-        proxy: "http://yourdomain.com",
+        proxy: "https://pakmailfranchising.lndo.site",
     });
 
     gulp.watch(['node_modules/bootstrap/scss/bootstrap.scss', 'scss/*.scss'], ['sass']);

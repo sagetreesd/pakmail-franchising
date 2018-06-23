@@ -66,6 +66,12 @@
 .navbar-brand .site-logo {
     margin-right: 1rem;
 }
+.navbar-dark .navbar-nav .nav-item {
+    border-right: 1px solid $white;
+    &.active {
+        background-color: $accent-secondary;
+    }
+}
 .navbar-dark .navbar-nav .nav-link {
     color: $white;
 }

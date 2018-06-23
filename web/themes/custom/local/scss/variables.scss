@@ -1,13 +1,17 @@
 /* VARIABLES */
 
+// Pakmail Colors.
+$pakmail-red: rgb(135, 36, 52);
+$pakmail-gray: rgb(97, 98, 101);
+
 // colors
-$primary-shade: #A8CF45;
+$primary-shade: $pakmail-red;
 $primary-light: lighten($primary-shade, 37%);
 $primary-dark: darken($primary-shade, 12%);
 $accent-shade: #291d1f;
 $accent-light: lighten($accent-shade, 37%);
 $accent-dark: darken($accent-shade, 12%);
-$accent-secondary: #4a4a4a;
+$accent-secondary: $pakmail-gray;
 // Reassign color vars to semantic color scheme
 $red: #dc3545;
 $yellow: #ffc107;
