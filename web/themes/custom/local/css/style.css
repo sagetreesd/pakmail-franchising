@@ -7047,7 +7047,7 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
         text-decoration: none; }
   .field--type-entity-reference .field--name-field-pager-caption {
     font-size: 0.85rem;
-    color: #888; }
+    color: #ddd; }
 
 .field--name-field-next a,
 .field--name-field-previous a {
@@ -7118,7 +7118,7 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
   .featured-bottom .region-featured-bottom-first h2 {
     margin-bottom: 0; }
   .featured-bottom .region-featured-bottom-third {
-    border-top: 1px solid #888; }
+    background-color: #f8e5e8; }
     .featured-bottom .region-featured-bottom-third h2 {
       font-size: 1.5rem; }
     .featured-bottom .region-featured-bottom-third > .block {
@@ -7140,11 +7140,11 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
         font-size: 4rem;
         width: 100%; }
         .featured-bottom .block-simple-blockneed-more-information .content div a:before:hover {
-          color: #291d1f; }
+          color: #872434; }
       .featured-bottom .block-simple-blockneed-more-information .content div a {
         color: #333; }
       .featured-bottom .block-simple-blockneed-more-information .content div a:hover {
-        color: #291d1f; }
+        color: #872434; }
       .featured-bottom .block-simple-blockneed-more-information .content div a.phone-number:before {
         content: '\f095'; }
       .featured-bottom .block-simple-blockneed-more-information .content div a.email:before {

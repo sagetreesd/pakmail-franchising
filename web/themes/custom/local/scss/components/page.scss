@@ -192,7 +192,7 @@
     }
 
     .region-featured-bottom-third {
-        border-top: 1px solid $lighter-gray;
+        background-color: $primary-light;
 
         h2 {
             font-size: 1.5rem;
@@ -223,7 +223,7 @@
                 width: 100%;
 
                 &:hover {
-                    color: $accent-shade;
+                    color: $primary-shade;
                 }
             }
 
@@ -231,7 +231,7 @@
                 color: $dark-gray;
             }
             a:hover {
-                color: $accent-shade;
+                color: $primary-shade;
             }
             a.phone-number:before {
                 content: '\f095';
