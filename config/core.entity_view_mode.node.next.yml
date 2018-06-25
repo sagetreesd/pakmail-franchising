@@ -1,0 +1,10 @@
+uuid: 44f034aa-5086-4c4e-a8d5-1e18dd550e48
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.next
+label: 'Next Topic'
+targetEntityType: node
+cache: true

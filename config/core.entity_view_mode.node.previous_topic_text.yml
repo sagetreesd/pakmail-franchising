@@ -1,0 +1,10 @@
+uuid: 17e941c6-a23f-4c29-82f2-7f99f8f22547
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.previous_topic_text
+label: 'Previous Topic Text'
+targetEntityType: node
+cache: true

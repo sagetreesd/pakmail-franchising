@@ -1,0 +1,28 @@
+uuid: cac05f0f-8b5c-4da8-bbfa-39e7aeb16475
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_previous
+    - node.type.page
+id: node.page.field_previous
+field_name: field_previous
+entity_type: node
+bundle: page
+label: 'Previous Topic'
+description: 'Page that the "Previous" button will link to.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      page: page
+    sort:
+      field: title
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

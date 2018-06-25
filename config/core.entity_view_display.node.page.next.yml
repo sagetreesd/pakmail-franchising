@@ -1,8 +1,9 @@
-uuid: f3257112-152e-42a1-8a1e-98fbf0415f84
+uuid: 3dc7e81f-2fd9-4161-ab28-2360cea7c52c
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.next
     - field.field.node.page.body
     - field.field.node.page.field_hero_text
     - field.field.node.page.field_image
@@ -11,30 +12,27 @@ dependencies:
     - field.field.node.page.field_previous
     - node.type.page
   module:
-    - text
     - user
 _core:
   default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
-id: node.page.default
+id: node.page.next
 targetEntityType: node
 bundle: page
-mode: default
+mode: next
 content:
-  body:
-    label: hidden
-    type: text_default
+  field_next:
+    type: entity_reference_entity_view
     weight: 0
     region: content
-    settings: {  }
-    third_party_settings: {  }
-  links:
-    weight: 1
-    region: content
-    settings: {  }
+    label: hidden
+    settings:
+      view_mode: next_topic_text
+      link: false
     third_party_settings: {  }
 hidden:
+  body: true
   field_hero_text: true
   field_image: true
-  field_next: true
   field_pager_caption: true
   field_previous: true
+  links: true

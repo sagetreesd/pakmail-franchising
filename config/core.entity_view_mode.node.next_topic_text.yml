@@ -1,0 +1,10 @@
+uuid: 49cf792d-e224-4c9c-b5d7-ae2e8229266a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.next_topic_text
+label: 'Next Topic Text'
+targetEntityType: node
+cache: true
