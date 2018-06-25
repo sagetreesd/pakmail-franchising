@@ -68,7 +68,9 @@
 /* Footer Bottom Styling. */
 
 .site-footer__bottom .block {
-    margin: ($spacer / 2) 0;
+    margin: ($spacer / 2) auto;
+    text-align: center;
+    width: 100%;
 }
 
 .site-footer__bottom .content {
