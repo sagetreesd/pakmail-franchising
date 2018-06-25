@@ -8380,3 +8380,7 @@ h2 {
   clear: both;
   margin-left: -30px;
   margin-right: -30px; }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1360px; } }
