@@ -8070,18 +8070,18 @@ h2, .h2 {
     font-size: 1.25rem; } }
 
 h3, .h3 {
-  font-size: 0.6rem; }
+  font-size: 0.69rem; }
 
 h3, .h3 {
-  font-size: 0.8rem; }
+  font-size: 0.92rem; }
 
 @media (min-width: 768px) {
   h3, .h3 {
-    font-size: 0.9rem; } }
+    font-size: 1.035rem; } }
 
 @media (min-width: 992px) {
   h3, .h3 {
-    font-size: 1rem; } }
+    font-size: 1.15rem; } }
 
 h4, .h4 {
   font-size: 0.72rem; }
@@ -8128,6 +8128,13 @@ h6, .h6 {
 h1 {
   padding: 20px; }
 
+h2,
+h3 {
+  line-height: 2.5rem; }
+
+h3 {
+  margin: 2rem 0; }
+
 a:hover {
   text-decoration: none;
   transition: 0.25s ease-out; }
@@ -8151,6 +8158,9 @@ h1 {
   color: #fff; }
 
 h2 {
+  color: #872434; }
+
+h3 {
   color: #872434; }
 
 .bg-inverse {
