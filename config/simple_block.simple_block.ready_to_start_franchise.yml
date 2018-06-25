@@ -1,0 +1,11 @@
+uuid: 07405ac7-9227-4ecf-b19c-3190281ec6d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+id: ready_to_start_franchise
+title: 'Ready to Start a Franchise?'
+content:
+  value: "<p style=\"text-align:center\"><a class=\"btn-primary\" href=\"/franchise-application\">Apply Now</a></p>\r\n"
+  format: full_html

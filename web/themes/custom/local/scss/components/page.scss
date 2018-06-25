@@ -18,8 +18,12 @@
     width: 100%;
 }
 
+#main-wrapper {
+    background-color: $lighest-gray;
+}
+
 .apply-block {
-    background-color: $accent-shade;
+    background-color: $accent-secondary;
     color: $white;
 
     h2,
@@ -169,6 +173,8 @@
 }
 
 .featured-bottom {
+    background-color: $lighest-gray;
+
     .container {
         background-color: $white;
         padding-top: 50px;
@@ -187,7 +193,7 @@
     }
 
     .region-featured-bottom-third {
-        border-top: 1px solid $dark-gray;
+        border-top: 1px solid $lighter-gray;
 
         h2 {
             font-size: 1.5rem;

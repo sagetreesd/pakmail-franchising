@@ -1,0 +1,11 @@
+uuid: 23021362-7a05-4536-bf3d-f8a36363597f
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+id: need_more_information
+title: 'Need More Information?'
+content:
+  value: "<div>\r\n<p><a class=\"phone-number\" href=\"tel:1-866-964-3142\">Call (866) 964-3142</a></p>\r\n</div>\r\n\r\n<div>\r\n<p><a class=\"email\" href=\"/franchising-information\">Contact Pak Mail Franchising</a></p>\r\n</div>\r\n"
+  format: full_html

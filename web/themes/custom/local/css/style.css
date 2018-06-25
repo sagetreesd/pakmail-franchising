@@ -6994,8 +6994,11 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
   text-align: center;
   width: 100%; }
 
+#main-wrapper {
+  background-color: #efefef; }
+
 .apply-block {
-  background-color: #291d1f;
+  background-color: #616265;
   color: #fff; }
   .apply-block h2,
   .apply-block a {
@@ -7102,51 +7105,49 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
 .block-simple-blockcontinual-support h2:before {
   content: '\f2b5'; }
 
-.featured-bottom .container {
-  background-color: #fff;
-  padding-top: 50px; }
-
-.featured-bottom .region {
-  background-color: #fff; }
-  .featured-bottom .region h2 {
-    margin-bottom: 2rem; }
-
-.featured-bottom .region-featured-bottom-first h2 {
-  margin-bottom: 0; }
-
-.featured-bottom .region-featured-bottom-third {
-  border-top: 1px solid #333; }
-  .featured-bottom .region-featured-bottom-third h2 {
-    font-size: 1.5rem; }
-  .featured-bottom .region-featured-bottom-third > .block {
-    padding: 30px 0;
-    width: 100%;
-    text-align: center; }
-
-.featured-bottom .block-simple-blockneed-more-information .content {
-  display: flex;
-  flex-wrap: wrap; }
-  .featured-bottom .block-simple-blockneed-more-information .content div {
-    width: 100%; }
-    @media screen and (min-width: 576px) {
-      .featured-bottom .block-simple-blockneed-more-information .content div {
-        width: 50%; } }
-    .featured-bottom .block-simple-blockneed-more-information .content div a:before {
-      color: #4a4a4a;
-      display: inline-block;
-      font-family: 'fontawesome';
-      font-size: 4rem;
+.featured-bottom {
+  background-color: #efefef; }
+  .featured-bottom .container {
+    background-color: #fff;
+    padding-top: 50px; }
+  .featured-bottom .region {
+    background-color: #fff; }
+    .featured-bottom .region h2 {
+      margin-bottom: 2rem; }
+  .featured-bottom .region-featured-bottom-first h2 {
+    margin-bottom: 0; }
+  .featured-bottom .region-featured-bottom-third {
+    border-top: 1px solid #888; }
+    .featured-bottom .region-featured-bottom-third h2 {
+      font-size: 1.5rem; }
+    .featured-bottom .region-featured-bottom-third > .block {
+      padding: 30px 0;
+      width: 100%;
+      text-align: center; }
+  .featured-bottom .block-simple-blockneed-more-information .content {
+    display: flex;
+    flex-wrap: wrap; }
+    .featured-bottom .block-simple-blockneed-more-information .content div {
       width: 100%; }
-      .featured-bottom .block-simple-blockneed-more-information .content div a:before:hover {
+      @media screen and (min-width: 576px) {
+        .featured-bottom .block-simple-blockneed-more-information .content div {
+          width: 50%; } }
+      .featured-bottom .block-simple-blockneed-more-information .content div a:before {
+        color: #4a4a4a;
+        display: inline-block;
+        font-family: 'fontawesome';
+        font-size: 4rem;
+        width: 100%; }
+        .featured-bottom .block-simple-blockneed-more-information .content div a:before:hover {
+          color: #291d1f; }
+      .featured-bottom .block-simple-blockneed-more-information .content div a {
+        color: #333; }
+      .featured-bottom .block-simple-blockneed-more-information .content div a:hover {
         color: #291d1f; }
-    .featured-bottom .block-simple-blockneed-more-information .content div a {
-      color: #333; }
-    .featured-bottom .block-simple-blockneed-more-information .content div a:hover {
-      color: #291d1f; }
-    .featured-bottom .block-simple-blockneed-more-information .content div a.phone-number:before {
-      content: '\f095'; }
-    .featured-bottom .block-simple-blockneed-more-information .content div a.email:before {
-      content: '\f0e0'; }
+      .featured-bottom .block-simple-blockneed-more-information .content div a.phone-number:before {
+        content: '\f095'; }
+      .featured-bottom .block-simple-blockneed-more-information .content div a.email:before {
+        content: '\f0e0'; }
 
 #main .hero {
   margin-top: -31px;
@@ -8170,7 +8171,7 @@ h3 {
   background-color: #291d1f !important; }
 
 .site-footer {
-  background: #616265 !important; }
+  background: #291d1f !important; }
   .site-footer,
   .site-footer a {
     color: #fff; }

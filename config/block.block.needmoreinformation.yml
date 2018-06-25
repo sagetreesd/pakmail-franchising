@@ -1,0 +1,22 @@
+uuid: e679a12a-b42d-4662-9cad-ca6b4da191d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - simple_block.simple_block.need_more_information
+  module:
+    - simple_block
+  theme:
+    - local
+id: needmoreinformation
+theme: local
+region: featured_bottom_third
+weight: -9
+provider: null
+plugin: 'simple_block:need_more_information'
+settings:
+  id: 'simple_block:need_more_information'
+  label: 'Need More Information?'
+  provider: simple_block
+  label_display: visible
+visibility: {  }
