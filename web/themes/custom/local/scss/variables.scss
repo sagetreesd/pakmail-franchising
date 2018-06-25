@@ -16,7 +16,6 @@ $accent-secondary: $pakmail-gray;
 $red: #dc3545;
 $yellow: #ffc107;
 $orange: #ff682c;
-$orange2: #ff9300;
 $green: #28a745;
 $cyan: #17a2b8;
 $white: #fff;
@@ -42,12 +41,12 @@ $inverse-bg: $primary-shade;
 // Links
 //
 // Style anchor elements.
-$body-link: $orange;
+$body-link: $pakmail-red;
 $link-color: $accent-shade;
 $link-decoration: none;
 $link-hover-color: $accent-dark;
 $link-hover-decoration: underline;
-$button-background-color: $orange2;
+$button-background-color: $pakmail-red;
 $button-text-color: $white;
 $button-border-color: darken($button-background-color, 3%);
 $button-background-color-hover: darken($button-background-color, 3%);

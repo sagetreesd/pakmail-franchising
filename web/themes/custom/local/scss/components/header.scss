@@ -43,7 +43,7 @@
     &:hover,
     &:focus,
     &.active {
-        background-color: $gray;
+        background-color: $primary-shade;
         a {
             color: $white;
         }
@@ -68,6 +68,7 @@
 }
 .navbar-dark .navbar-nav .nav-item {
     border-right: 1px solid $white;
+
     &.active {
         background-color: $accent-secondary;
     }
@@ -99,7 +100,7 @@
 }
 
 .dropdown-toggle-split {
-    padding: 15px 20px 0 0;
+    padding: 15px 20px 15px 0;
 }
 
 .navbar-toggler-icon:after {
@@ -139,11 +140,12 @@
 
     }
 
-    .navbar-dark .navbar-nav li.dropdown.show {
-        background-color: $white;
+    .navbar-dark .navbar-nav li.dropdown.show,
+    .navbar-dark .navbar-nav li.nav-item:hover {
+        background-color: $primary-shade;
 
         > a {
-            color: $dark-gray;
+            color: $white;
         }
     }
 
