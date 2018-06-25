@@ -6,11 +6,10 @@
 #main {
     background-color: $white;
     margin-top: 0;
-    padding-top: $spacer;
 }
 
 #content > .section {
-    padding: 15px;
+    padding: 0 15px 15px;
 }
 
 .block-center-title h2 {
@@ -252,6 +251,7 @@
     }
     .field--type-image {
         margin: 0;
+        width: 100%;
         img {
             height: auto;
             width: 100%;

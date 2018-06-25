@@ -6986,11 +6986,10 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
  */
 #main {
   background-color: #fff;
-  margin-top: 0;
-  padding-top: 1rem; }
+  margin-top: 0; }
 
 #content > .section {
-  padding: 15px; }
+  padding: 0 15px 15px; }
 
 .block-center-title h2 {
   text-align: center;
@@ -7157,7 +7156,8 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
   position: relative; }
 
 #main .hero .field--type-image {
-  margin: 0; }
+  margin: 0;
+  width: 100%; }
   #main .hero .field--type-image img {
     height: auto;
     width: 100%; }
@@ -8131,6 +8131,7 @@ h6, .h6 {
     font-size: 1rem; } }
 
 h1 {
+  margin-top: 1rem;
   padding: 20px; }
 
 h2,
