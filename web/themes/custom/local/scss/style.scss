@@ -19,6 +19,7 @@ h3,
 h4,
 h5 {
     font-family: $font-family-local-h;
+    font-weight: bold;
 }
 
 @include responsive-headings('h1', $font-size-h1, 1);

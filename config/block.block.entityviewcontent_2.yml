@@ -1,0 +1,27 @@
+uuid: 5dc0d154-c7f8-4aa7-9dba-de1b8b760894
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - ctools
+  theme:
+    - local
+third_party_settings:
+  block_class:
+    classes: ''
+id: entityviewcontent_2
+theme: local
+region: featured_bottom_first
+weight: -6
+provider: null
+plugin: 'entity_view:node'
+settings:
+  id: 'entity_view:node'
+  label: 'Next Topic'
+  provider: ctools
+  label_display: '0'
+  view_mode: next
+  context_mapping:
+    entity: '@node.node_route_context:node'
+visibility: {  }

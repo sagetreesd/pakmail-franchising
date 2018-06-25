@@ -6986,10 +6986,6 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
   background-color: #fff;
   margin-top: 0;
   padding-top: 1rem; }
-  #main h2 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 2rem; }
 
 #content > .section {
   padding: 15px; }
@@ -7045,6 +7041,9 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
       .field--type-entity-reference .field__item a:hover {
         background-color: #050404;
         text-decoration: none; }
+  .field--type-entity-reference .field--name-field-pager-caption {
+    font-size: 0.85rem;
+    color: #888; }
 
 .field--name-field-next a,
 .field--name-field-previous a {
@@ -8039,7 +8038,8 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Libre Franklin", Helvetica, Arial, "DejaVu Sans", sans-serif; }
+  font-family: "Libre Franklin", Helvetica, Arial, "DejaVu Sans", sans-serif;
+  font-weight: bold; }
 
 h1, .h1 {
   font-size: 0.9rem; }
