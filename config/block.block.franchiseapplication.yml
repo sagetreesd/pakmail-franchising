@@ -12,7 +12,7 @@ dependencies:
 id: franchiseapplication
 theme: local
 region: content
-weight: -6
+weight: -9
 provider: null
 plugin: 'simple_block:franchise_top_content'
 settings:

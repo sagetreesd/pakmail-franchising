@@ -40,9 +40,13 @@
 
 #navbar-main.navbar-dark .dropdown-menu .dropdown-item {
     border-bottom: 1px solid $white;
-    &:hover,
-    &:focus,
+    
     &.active {
+        background-color: $accent-secondary;
+    }
+
+    &:hover,
+    &:focus {
         background-color: $primary-shade;
         a {
             color: $white;

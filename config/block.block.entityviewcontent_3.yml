@@ -1,0 +1,27 @@
+uuid: 6c40ae20-b52d-4cf1-a73f-6c58a8c9b401
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - ctools
+  theme:
+    - local
+third_party_settings:
+  block_class:
+    classes: 'hero full-width-content'
+id: entityviewcontent_3
+theme: local
+region: content
+weight: -7
+provider: null
+plugin: 'entity_view:node'
+settings:
+  id: 'entity_view:node'
+  label: Hero
+  provider: ctools
+  label_display: '0'
+  view_mode: hero
+  context_mapping:
+    entity: '@node.node_route_context:node'
+visibility: {  }
