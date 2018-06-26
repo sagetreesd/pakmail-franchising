@@ -6690,7 +6690,7 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
   padding: 15px 25px; }
 
 .navbar {
-  text-transform: uppercase; }
+  font-size: 1rem; }
 
 .dropdown-menu {
   background-color: #333;
@@ -7019,6 +7019,21 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
     margin: 0 auto;
     max-width: 768px; }
 
+.path-frontpage .node--view-mode-full .node__content {
+  margin: 0 auto;
+  max-width: 600px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  text-align: center; }
+
+.path-frontpage .featured-bottom .container {
+  padding-top: 0; }
+
+.path-frontpage .region-featured-bottom-first {
+  padding-bottom: 0; }
+  .path-frontpage .region-featured-bottom-first > div {
+    padding: 0; }
+
 .region-featured-bottom-first {
   justify-content: space-between; }
   .region-featured-bottom-first .block {
@@ -7085,9 +7100,12 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
   flex-wrap: wrap; }
   .block-simple-blockwhy-pakmail-franchise ul li {
     list-style: none;
-    width: 33%;
     padding: 0 60px;
-    text-align: center; }
+    text-align: center;
+    width: 100%; }
+    @media screen and (min-width: 992px) {
+      .block-simple-blockwhy-pakmail-franchise ul li {
+        width: 33%; } }
   .block-simple-blockwhy-pakmail-franchise ul h3 {
     line-height: 1.5rem;
     margin: 1.5rem 0 1rem; }

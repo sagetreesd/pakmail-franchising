@@ -40,7 +40,7 @@
 
 #navbar-main.navbar-dark .dropdown-menu .dropdown-item {
     border-bottom: 1px solid $white;
-    
+
     &.active {
         background-color: $accent-secondary;
     }
@@ -90,7 +90,7 @@
 }
 
 .navbar {
-    text-transform: uppercase;
+    font-size: 1rem;
 }
 
 .dropdown-menu {
