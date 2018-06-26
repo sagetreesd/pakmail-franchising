@@ -7088,12 +7088,12 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
   padding-bottom: 0; }
 
 .block-simple-blockgrowth-potential,
-.block-simple-blocklifestyle-flexibility,
-.block-simple-blockcontinual-support {
+.block-simple-blockunique-powerful-network,
+.block-simple-blockability-to-prosper {
   padding-bottom: 1rem; }
   .block-simple-blockgrowth-potential h2:before,
-  .block-simple-blocklifestyle-flexibility h2:before,
-  .block-simple-blockcontinual-support h2:before {
+  .block-simple-blockunique-powerful-network h2:before,
+  .block-simple-blockability-to-prosper h2:before {
     color: #666;
     display: block;
     font-family: 'fontawesome';
@@ -7103,11 +7103,11 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
 .block-simple-blockgrowth-potential h2:before {
   content: '\f201'; }
 
-.block-simple-blocklifestyle-flexibility h2:before {
-  content: '\f234'; }
-
-.block-simple-blockcontinual-support h2:before {
+.block-simple-blockunique-powerful-network h2:before {
   content: '\f2b5'; }
+
+.block-simple-blockability-to-prosper h2:before {
+  content: '\f234'; }
 
 .featured-bottom {
   background-color: #efefef; }
