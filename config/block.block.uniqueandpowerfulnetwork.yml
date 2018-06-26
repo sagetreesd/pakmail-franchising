@@ -16,7 +16,7 @@ third_party_settings:
 id: uniqueandpowerfulnetwork
 theme: local
 region: content
-weight: 1
+weight: 2
 provider: null
 plugin: 'simple_block:unique_powerful_network'
 settings:

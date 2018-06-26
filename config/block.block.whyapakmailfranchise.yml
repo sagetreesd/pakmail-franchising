@@ -1,0 +1,26 @@
+uuid: 3d0cb4e3-3232-4479-b656-3797c9774d7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - simple_block.simple_block.why_pakmail_franchise
+  module:
+    - block_class
+    - simple_block
+  theme:
+    - local
+third_party_settings:
+  block_class:
+    classes: 'full-width-content block-center-title'
+id: whyapakmailfranchise
+theme: local
+region: content
+weight: -2
+provider: null
+plugin: 'simple_block:why_pakmail_franchise'
+settings:
+  id: 'simple_block:why_pakmail_franchise'
+  label: 'Why a Pak Mail Franchise?'
+  provider: simple_block
+  label_display: visible
+visibility: {  }

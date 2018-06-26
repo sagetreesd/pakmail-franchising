@@ -1,9 +1,9 @@
-uuid: 4b69d6d6-1fcd-49b0-8347-a9460ebd1c82
+uuid: efbe6c9b-96d2-454a-90de-9d4d2f7f2dfa
 langcode: en
 status: true
 dependencies:
   config:
-    - simple_block.simple_block.three_column_header
+    - simple_block.simple_block.ready_to_learn_more
   module:
     - block_class
     - simple_block
@@ -12,16 +12,16 @@ dependencies:
     - local
 third_party_settings:
   block_class:
-    classes: 'full-width-content ribbon block-center-title'
-id: atpakmailyoureinbusinessforyourselfbutnotbyyourself.
+    classes: 'full-width-content ribbon block-center-title light-text'
+id: readytolearnmore
 theme: local
 region: content
-weight: 0
+weight: -1
 provider: null
-plugin: 'simple_block:three_column_header'
+plugin: 'simple_block:ready_to_learn_more'
 settings:
-  id: 'simple_block:three_column_header'
-  label: 'At Pak Mail, you''re in business FOR yourself, but not BY yourself.'
+  id: 'simple_block:ready_to_learn_more'
+  label: 'Ready to Learn More?'
   provider: simple_block
   label_display: visible
 visibility:

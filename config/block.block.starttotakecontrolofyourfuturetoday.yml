@@ -16,7 +16,7 @@ third_party_settings:
 id: starttotakecontrolofyourfuturetoday
 theme: local
 region: content
-weight: -2
+weight: -3
 provider: null
 plugin: 'simple_block:start_to_take_control_of_your'
 settings:

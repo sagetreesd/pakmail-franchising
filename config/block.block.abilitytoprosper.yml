@@ -16,7 +16,7 @@ third_party_settings:
 id: abilitytoprosper
 theme: local
 region: content
-weight: 2
+weight: 3
 provider: null
 plugin: 'simple_block:ability_to_prosper'
 settings:

@@ -1,0 +1,11 @@
+uuid: 1c415801-1b90-4ed3-96f1-c8c52396a9ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+id: why_pakmail_franchise
+title: 'Why a Pak Mail Franchise?'
+content:
+  value: "<ul>\r\n\t<li>\r\n\t<h3>Big Enough To Know, Small Enough to Care™</h3>\r\n\r\n\t<p>Founded in 1984, Pak Mail has nearly 350&nbsp;independently owned and operated in the U.S., Mexico, and Japan.</p>\r\n\t</li>\r\n\t<li>\r\n\t<h3>Normal Business Hours</h3>\r\n\r\n\t<p>NO late nights. NO long weekends. Operate your store and enjoy your life.</p>\r\n\t</li>\r\n\t<li>\r\n\t<h3>Manageable Staff Size</h3>\r\n\r\n\t<p>Whether you work well with a large or small team, you're in control</p>\r\n\t</li>\r\n\t<li>\r\n\t<h3>Lower Initial Investment</h3>\r\n\r\n\t<p>Because we're primarily a service-based business, the initial investment is lower than many other concepts.</p>\r\n\t</li>\r\n\t<li>\r\n\t<h3>A Tested System</h3>\r\n\r\n\t<p>Avoid the expensive mistakes often encountered by those starting (and maintaining) with our proven system.</p>\r\n\t</li>\r\n\t<li>\r\n\t<h3>Award-Winning Marketing Materials</h3>\r\n\r\n\t<p>Pak Mail has a team of Emmy-award-winning marketing professionals to&nbsp;help you grow your business.</p>\r\n\t</li>\r\n</ul>\r\n"
+  format: full_html

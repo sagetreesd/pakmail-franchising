@@ -16,7 +16,7 @@ third_party_settings:
 id: growthpotential
 theme: local
 region: content
-weight: 0
+weight: 1
 provider: null
 plugin: 'simple_block:growth_potential'
 settings:

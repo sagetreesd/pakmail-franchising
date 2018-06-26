@@ -43,6 +43,10 @@ h3 {
     margin: 2rem 0;
 }
 
+p {
+    font-size: $font-size-sm;
+}
+
 a:hover {
     text-decoration: none;
     transition: 0.25s ease-out;

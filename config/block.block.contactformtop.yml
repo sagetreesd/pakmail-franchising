@@ -16,7 +16,7 @@ third_party_settings:
 id: contactformtop
 theme: local
 region: content
-weight: -5
+weight: -6
 provider: null
 plugin: 'simple_block:contactformtop'
 settings:

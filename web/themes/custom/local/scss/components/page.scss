@@ -143,8 +143,25 @@
     margin: 0 auto;
 }
 
+.block-simple-blockwhy-pakmail-franchise ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+        list-style: none;
+        width: 33%;
+        padding: 0 60px;
+        text-align: center;
+    }
+
+    h3 {
+        line-height: 1.5rem;
+        margin: 1.5rem 0 1rem;
+    }
+}
+
 .block-simple-blockready-to-learn-more {
-    background-color: $accent-light;
+    background-color: $primary-light;
 }
 
 #block-atpakmailyoureinbusinessforyourselfbutnotbyyourself {

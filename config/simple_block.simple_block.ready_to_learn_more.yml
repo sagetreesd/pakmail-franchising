@@ -1,0 +1,11 @@
+uuid: 3c09dd74-793a-4d97-ba4d-842093945c72
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+id: ready_to_learn_more
+title: 'Ready to Learn More?'
+content:
+  value: "<p class=\"text-align-center\"><a class=\"btn-secondary\" href=\"/why-choose-pak-mail\">Learn more about Pak Mail</a></p>\r\n\r\n<p class=\"text-align-center\">Pak Mail can help you realize the dream of business ownership by leveraging the strength and experience of our nationwide network, and decades of operational knowledge. Imagine the opportunity to grow professionally and financially while fulfilling your dream as a business owner. We will be there to support you every step of the way!</p>\r\n"
+  format: full_html
