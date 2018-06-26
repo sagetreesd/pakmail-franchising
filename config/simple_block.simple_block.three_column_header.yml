@@ -1,0 +1,11 @@
+uuid: 4a4b0456-44f1-4e36-b8c9-de6d39eadfb9
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+id: three_column_header
+title: 'At Pak Mail, you''re in business FOR yourself, but not BY yourself.'
+content:
+  value: '<p>&nbsp;</p>'
+  format: basic_html

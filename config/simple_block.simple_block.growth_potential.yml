@@ -1,0 +1,11 @@
+uuid: 511c3573-5504-4831-94b5-a4df72d4bee2
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+id: growth_potential
+title: 'Growth Potential'
+content:
+  value: "<p class=\"text-align-center\">Your capabilities with Pak Mail span multiple industries, from small parcel shipping, freight packing and logistics to business services and support. The shipping industry is growing and already provides more than 25 million deliveries per day.</p>\r\n"
+  format: full_html

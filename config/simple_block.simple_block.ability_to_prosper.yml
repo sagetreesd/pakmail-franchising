@@ -1,0 +1,11 @@
+uuid: 41b65980-ed91-4f58-95b8-02c973955382
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+id: ability_to_prosper
+title: 'Ability to Prosper'
+content:
+  value: "<p class=\"text-align-center\">The power of a Pak Mail franchise lies in its ability to offer scale and flexibility. Leverage your personal strengths within your individual business to diversify services and meet your market’s needs.</p>\r\n"
+  format: full_html

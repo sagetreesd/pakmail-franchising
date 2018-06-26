@@ -1,0 +1,32 @@
+uuid: 4b69d6d6-1fcd-49b0-8347-a9460ebd1c82
+langcode: en
+status: true
+dependencies:
+  config:
+    - simple_block.simple_block.three_column_header
+  module:
+    - block_class
+    - simple_block
+    - system
+  theme:
+    - local
+third_party_settings:
+  block_class:
+    classes: 'full-width-content ribbon block-center-title'
+id: atpakmailyoureinbusinessforyourselfbutnotbyyourself.
+theme: local
+region: content
+weight: -1
+provider: null
+plugin: 'simple_block:three_column_header'
+settings:
+  id: 'simple_block:three_column_header'
+  label: 'At Pak Mail, you''re in business FOR yourself, but not BY yourself.'
+  provider: simple_block
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

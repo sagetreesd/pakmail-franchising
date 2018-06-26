@@ -1,9 +1,9 @@
-uuid: 8762fa99-906c-4bce-aa0d-b08c579344e6
+uuid: b9ad7dd4-989b-4649-9522-81d06ce236fd
 langcode: en
 status: true
 dependencies:
   config:
-    - simple_block.simple_block.contactformtop
+    - simple_block.simple_block.growth_potential
   module:
     - block_class
     - simple_block
@@ -12,21 +12,21 @@ dependencies:
     - local
 third_party_settings:
   block_class:
-    classes: ''
-id: contactformtop
+    classes: 'col-md-4 float-left block-center-title'
+id: growthpotential
 theme: local
 region: content
-weight: -5
+weight: 0
 provider: null
-plugin: 'simple_block:contactformtop'
+plugin: 'simple_block:growth_potential'
 settings:
-  id: 'simple_block:contactformtop'
-  label: 'Contact Form Top'
+  id: 'simple_block:growth_potential'
+  label: 'Growth Potential'
   provider: simple_block
-  label_display: '0'
+  label_display: visible
 visibility:
   request_path:
     id: request_path
-    pages: /franchising-information
+    pages: '<front>'
     negate: false
     context_mapping: {  }

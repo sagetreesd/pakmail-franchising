@@ -1,0 +1,11 @@
+uuid: 7eb0c7fa-7c5a-4057-af61-bc74701a090b
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+id: unique_powerful_network
+title: 'Unique and Powerful Network'
+content:
+  value: "<p class=\"text-align-center\">Pak Mail’s worldwide specialty shipping network is the foundation and differentiator for your business. You gain access to infrastructure allowing you to provide logistics and shipping services others cannot.</p>\r\n"
+  format: full_html

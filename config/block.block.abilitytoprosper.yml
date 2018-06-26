@@ -1,9 +1,9 @@
-uuid: 8762fa99-906c-4bce-aa0d-b08c579344e6
+uuid: 0e53db50-7ab8-404c-b93c-e6a3cf65614b
 langcode: en
 status: true
 dependencies:
   config:
-    - simple_block.simple_block.contactformtop
+    - simple_block.simple_block.ability_to_prosper
   module:
     - block_class
     - simple_block
@@ -12,21 +12,21 @@ dependencies:
     - local
 third_party_settings:
   block_class:
-    classes: ''
-id: contactformtop
+    classes: 'col-md-4 float-left block-center-title'
+id: abilitytoprosper
 theme: local
 region: content
-weight: -5
+weight: 2
 provider: null
-plugin: 'simple_block:contactformtop'
+plugin: 'simple_block:ability_to_prosper'
 settings:
-  id: 'simple_block:contactformtop'
-  label: 'Contact Form Top'
+  id: 'simple_block:ability_to_prosper'
+  label: 'Ability to Prosper'
   provider: simple_block
-  label_display: '0'
+  label_display: visible
 visibility:
   request_path:
     id: request_path
-    pages: /franchising-information
+    pages: '<front>'
     negate: false
     context_mapping: {  }

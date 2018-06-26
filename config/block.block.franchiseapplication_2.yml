@@ -16,7 +16,7 @@ third_party_settings:
 id: franchiseapplication_2
 theme: local
 region: content
-weight: -2
+weight: -4
 provider: null
 plugin: 'simple_block:franchise_top_content'
 settings:

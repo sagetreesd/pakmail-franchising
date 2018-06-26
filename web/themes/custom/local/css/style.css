@@ -7009,7 +7009,10 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
 .ribbon {
   margin-top: 30px;
   margin-bottom: 30px;
-  padding: 30px; }
+  padding: 60px 30px; }
+  .ribbon h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem; }
   .ribbon .btn-secondary {
     margin: 0 0 30px; }
   .ribbon .content {
@@ -7080,7 +7083,7 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
 .block-simple-blockready-to-learn-more {
   background-color: #976c73; }
 
-.block-simple-blockwhy-our-franchise-is-right {
+#block-atpakmailyoureinbusinessforyourselfbutnotbyyourself {
   margin-bottom: 0;
   padding-bottom: 0; }
 
@@ -7114,7 +7117,7 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
   .featured-bottom .region {
     background-color: #fff; }
     .featured-bottom .region h2 {
-      margin-bottom: 2rem; }
+      margin-bottom: 3rem; }
   .featured-bottom .region-featured-bottom-first h2 {
     margin-bottom: 0; }
   .featured-bottom .region-featured-bottom-third {
@@ -7122,7 +7125,7 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
     .featured-bottom .region-featured-bottom-third h2 {
       font-size: 1.5rem; }
     .featured-bottom .region-featured-bottom-third > .block {
-      padding: 30px 0;
+      padding: 60px 0;
       width: 100%;
       text-align: center; }
   .featured-bottom .block-simple-blockneed-more-information .content {

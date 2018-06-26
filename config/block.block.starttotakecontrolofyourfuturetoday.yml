@@ -1,0 +1,32 @@
+uuid: 135bb7ab-80c9-4bae-aa43-eac19021c84d
+langcode: en
+status: true
+dependencies:
+  config:
+    - simple_block.simple_block.start_to_take_control_of_your
+  module:
+    - block_class
+    - simple_block
+    - system
+  theme:
+    - local
+third_party_settings:
+  block_class:
+    classes: 'full-width-content apply-block block-center-title ribbon'
+id: starttotakecontrolofyourfuturetoday
+theme: local
+region: content
+weight: -2
+provider: null
+plugin: 'simple_block:start_to_take_control_of_your'
+settings:
+  id: 'simple_block:start_to_take_control_of_your'
+  label: 'Start to take control of your future today'
+  provider: simple_block
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
