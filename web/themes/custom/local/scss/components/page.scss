@@ -78,6 +78,7 @@
     .block {
         padding: 0 30px 30px;
         margin: 0 auto;
+        width: 50%;
         
         h2 {
             text-align: center;
@@ -121,7 +122,7 @@
 
     .field--name-field-pager-caption {
         font-size: 0.85rem;
-        color: $lighter-gray;
+        color: $light-gray;
     }
 }
 
@@ -185,7 +186,7 @@
 }
 
 .block-simple-blockready-to-learn-more {
-    background-color: $primary-light;
+    background-color: $lighter-gray;
 }
 
 #block-atpakmailyoureinbusinessforyourselfbutnotbyyourself {
@@ -238,7 +239,7 @@
     }
 
     .region-featured-bottom-third {
-        background-color: $primary-light;
+        background-color: $lighter-gray;
 
         h2 {
             font-size: 1.5rem;

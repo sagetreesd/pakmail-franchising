@@ -7,6 +7,7 @@ dependencies:
   module:
     - block_class
     - simple_block
+    - system
   theme:
     - local
 third_party_settings:
@@ -23,4 +24,9 @@ settings:
   label: 'Why a Pak Mail Franchise?'
   provider: simple_block
   label_display: visible
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

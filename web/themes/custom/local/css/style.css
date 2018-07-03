@@ -7038,7 +7038,8 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
   justify-content: space-between; }
   .region-featured-bottom-first .block {
     padding: 0 30px 30px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 50%; }
     .region-featured-bottom-first .block h2 {
       text-align: center; }
     @media screen and (min-width: 768px) {
@@ -7065,7 +7066,7 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
         text-decoration: none; }
   .field--type-entity-reference .field--name-field-pager-caption {
     font-size: 0.85rem;
-    color: #ddd; }
+    color: #666; }
 
 .field--name-field-next a,
 .field--name-field-previous a {
@@ -7111,7 +7112,7 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
     margin: 1.5rem 0 1rem; }
 
 .block-simple-blockready-to-learn-more {
-  background-color: #f8e5e8; }
+  background-color: #ddd; }
 
 #block-atpakmailyoureinbusinessforyourselfbutnotbyyourself {
   margin-bottom: 0;
@@ -7151,7 +7152,7 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
   .featured-bottom .region-featured-bottom-first h2 {
     margin-bottom: 0; }
   .featured-bottom .region-featured-bottom-third {
-    background-color: #f8e5e8; }
+    background-color: #ddd; }
     .featured-bottom .region-featured-bottom-third h2 {
       font-size: 1.5rem; }
     .featured-bottom .region-featured-bottom-third > .block {
@@ -8172,7 +8173,7 @@ h3 {
   line-height: 2.5rem; }
 
 h3 {
-  margin: 2rem 0; }
+  margin: 2rem 0 0.5rem; }
 
 p {
   font-size: 0.875rem; }
@@ -8183,6 +8184,9 @@ a:hover {
 
 #main img {
   max-width: 100%; }
+
+hr {
+  clear: both; }
 
 /* COLORS 
 --------------------------------------------------*/
