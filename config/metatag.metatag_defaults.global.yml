@@ -7,5 +7,7 @@ _core:
 id: global
 label: Global
 tags:
-  canonical_url: '[current-page:url]'
   title: '[current-page:title] | [site:name]'
+  canonical_url: '[current-page:url]'
+  description: 'Discover the freedom of franchise ownership with Pak Mail. Today''s economy has everyone looking for ways to same time and money when taking care of business with office services like shipping, color printing, copying, notarizing and more.  Busy entrepreneurs need convenient access to the wide range of services offered by Pak Mail. That demand for services translates into opportunity, especially for those who desire to own their own business!'
+  image_src: 'https://franchise.pakmail.com/sites/default/files/pakmail-logo.png'
