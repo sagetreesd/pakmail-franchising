@@ -7035,20 +7035,14 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
     padding: 0; }
 
 .region-featured-bottom-first {
-  justify-content: space-between; }
+  justify-content: space-between;
+  flex-direction: row-reverse; }
   .region-featured-bottom-first .block {
     padding: 0 30px 30px;
-    margin: 0 auto;
-    width: 50%; }
-    .region-featured-bottom-first .block h2 {
-      text-align: center; }
+    margin: 0 auto; }
     @media screen and (min-width: 768px) {
       .region-featured-bottom-first .block {
-        margin: 0; }
-        .region-featured-bottom-first .block h2 {
-          text-align: left; }
-        .region-featured-bottom-first .block:last-child h2 {
-          text-align: right; } }
+        margin: 0; } }
 
 .field--type-entity-reference {
   margin: 0; }
@@ -7071,7 +7065,8 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
 .field--name-field-next a,
 .field--name-field-previous a {
   font-size: 1.5rem;
-  font-weight: normal; }
+  font-weight: normal;
+  white-space: nowrap; }
   .field--name-field-next a:before, .field--name-field-next a:after,
   .field--name-field-previous a:before,
   .field--name-field-previous a:after {
@@ -7083,12 +7078,16 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
   padding-right: 15px; }
 
 @media screen and (min-width: 768px) {
-  .field--name-field-next {
+  .field--name-field-next, .field--name-field-next h2 {
     text-align: right; } }
 
 .field--name-field-next a:after {
   content: '\f061';
   padding-left: 15px; }
+
+@media screen and (min-width: 768px) {
+  .field--name-field-previous h2 {
+    text-align: left; } }
 
 #block-franchiseapplication {
   padding: 30px 0; }

@@ -9,11 +9,11 @@ dependencies:
     - local
 third_party_settings:
   block_class:
-    classes: ''
+    classes: col-md-6
 id: entityviewcontent
 theme: local
 region: featured_bottom_first
-weight: -7
+weight: -11
 provider: null
 plugin: 'entity_view:node'
 settings:

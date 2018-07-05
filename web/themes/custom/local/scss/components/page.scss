@@ -74,26 +74,14 @@
 
 .region-featured-bottom-first {
     justify-content: space-between;
+    flex-direction: row-reverse;
 
     .block {
         padding: 0 30px 30px;
         margin: 0 auto;
-        width: 50%;
-        
-        h2 {
-            text-align: center;
-        }
         
         @media screen and (min-width: 768px) {
             margin: 0;
-
-            h2 {
-                text-align: left;
-            }
-            
-            &:last-child h2 {
-                text-align: right;
-            }
         }
     }
 }
@@ -131,6 +119,7 @@
     a {
         font-size: 1.5rem;
         font-weight: normal;
+        white-space: nowrap;
 
         &:before,
         &:after {
@@ -147,12 +136,20 @@
 
 .field--name-field-next {
     @media screen and (min-width: 768px) {
-        text-align: right;
+        &, h2 {
+            text-align: right;
+        }
     }
 
     a:after {
         content: '\f061';
         padding-left: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .field--name-field-previous h2 {
+        text-align: left;
     }
 }
 
