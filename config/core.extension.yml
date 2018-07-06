@@ -40,7 +40,6 @@ module:
   rdf: 0
   recaptcha: 0
   redirect: 0
-  reroute_email: 0
   schema_metatag: 0
   search: 0
   shortcut: 0
