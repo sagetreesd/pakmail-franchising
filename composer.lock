@@ -1324,7 +1324,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-alpha1",
-                    "datestamp": "1475623439",
+                    "datestamp": "1531440821",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
@@ -1411,7 +1411,7 @@
                 },
                 "drupal": {
                     "version": "8.x-4.10",
-                    "datestamp": "1526911680",
+                    "datestamp": "1527274080",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -1637,7 +1637,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -1675,7 +1675,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.7",
-                    "datestamp": "1520542980",
+                    "datestamp": "1524572284",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2442,7 +2442,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.2",
-                    "datestamp": "1506372845",
+                    "datestamp": "1531469021",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2877,7 +2877,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -3109,7 +3109,7 @@
                 },
                 "drupal": {
                     "version": "8.x-5.0-rc16",
-                    "datestamp": "1530298420",
+                    "datestamp": "1533563280",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -5921,17 +5921,6 @@
         {
             "name": "webflo/drupal-core-strict",
             "version": "8.5.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/webflo/drupal-core-strict.git",
-                "reference": "1aef7d924d920e72206e399635e042e0320a976f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/webflo/drupal-core-strict/zipball/1aef7d924d920e72206e399635e042e0320a976f",
-                "reference": "1aef7d924d920e72206e399635e042e0320a976f",
-                "shasum": ""
-            },
             "require": {
                 "asm89/stack-cors": "1.2.0",
                 "composer/installers": "v1.5.0",
