@@ -100,7 +100,7 @@
         },
         "patches": {
             "drupal/bootstrap_barrio": {
-                "Fontawesome 4.7 Update": "https://www.drupal.org/files/issues/2018-06-08/fontawesome-2978386-1.patch"
+                "Fontawesome 4.7 Update": "./fontawesome-2978386-2.patch"
             }
         },
         "build-env": {

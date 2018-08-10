@@ -1,0 +1,13 @@
+diff --git a/bootstrap_barrio.libraries.yml b/bootstrap_barrio.libraries.yml
+index b2f33d9..cbc9d6c 100644
+--- a/bootstrap_barrio.libraries.yml
++++ b/bootstrap_barrio.libraries.yml
+@@ -249,7 +249,7 @@ fontawesome:
+   version: VERSION
+   css:
+     component:
+-      //use.fontawesome.com/releases/v5.0.13/css/all.css: {}
++      //stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css: {}
+ 
+ # Material Design for Bootstrap
+ 
